@@ -11,7 +11,7 @@ public class Principal {
 
         try {
             System.out.println(
-                    "Escolha o exercício: \n[1] - Exercício 1\n[2] - Exercício 2\n[3] - Exercício 3\n[4] - Exercício 4");
+                    "Escolha o exercício: \n[1] - Exercício 1 (Triângulos)\n[2] - Exercício 2 (Ano Bissexto)\n[3] - Exercício 3 (Detetive)\n[4] - Exercício 4 (Posto)");
             Scanner teclado = new Scanner(System.in);
             int op = teclado.nextInt();
 

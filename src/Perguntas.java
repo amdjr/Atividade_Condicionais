@@ -7,7 +7,7 @@ public class Perguntas {
         } else if (resultado == 8) {
             System.out.println("Elemento suspeito!!");
         } else if ((resultado > 5) && (resultado < 8)) {
-            System.out.println("Elemento é o cúmplice!!");
+            System.out.println("Possível cúmplice!!");
         } else {
             System.out.println("Elemento é inocente!!");
         }
