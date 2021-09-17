@@ -61,27 +61,17 @@ public class Principal {
                     float preco = teclado.nextFloat();
                     System.out.println("Quantos litros?");
                     float litros = teclado.nextFloat();
-                    if (litros >= 20) {
-                        Calculos.gasolina(preco, litros);
-                        teclado.close();
-                    } else {
-                        System.out.println("Sem desconto.");
-                        teclado.close();
-                    }
-                    teclado.close();
+
+                    Calculos.gasolina(preco, litros);
 
                 } else if (tipo != null && tipo.equalsIgnoreCase("A")) {
                     System.out.println("Qual preço do combustível?");
                     float preco = teclado.nextFloat();
                     System.out.println("Quantos litros?");
                     float litros = teclado.nextFloat();
-                    if (litros >= 20) {
-                        Calculos.gasolina(preco, litros);
-                        teclado.close();
-                    } else {
-                        System.out.println("Sem desconto.");
-                        teclado.close();
-                    }
+
+                    Calculos.alcool(preco, litros);
+
                 } else
                     System.out.println("Ocorreu um erro.");
             }
